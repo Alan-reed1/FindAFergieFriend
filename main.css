@@ -1,0 +1,80 @@
+/* For any CS students that were actually curious enough to take a look at the code (or any students I guess for that matter) I KNOW THE COD IS AWFUL OK MY CSS REPEATS SO MANY TIMES but like I don't really care and while I totally could convert it to SCSS/SASS with relative ease, I feel like the spaghetti code doesn't matter too much in this 
+situation especially since I'm not concerened with load time due to the insane internet speeds aorund here soooooo if anyone feels like optimizing my css feel free and I'll commit it lol */
+
+
+* {
+    margin:0;
+}
+
+body {
+    background-color: rgb(169, 140, 102);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.greater-title-container {
+    display: flex;
+    align-items: stretch; 
+}
+
+.title-wrapper {
+    background-color: seashell;
+    padding: 1%;
+    color: black;
+    text-align: left;
+    width: 50%; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+}
+
+.title-wrapper * {
+    margin: 0;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+.wh_img {
+    max-width: 50%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.options-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.option {
+    width: 20em;
+    height: 20em;
+    background-color: seashell;
+    color: black; 
+    padding: 10px;
+    margin: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.option a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+}
+
+a:hover {
+    color:rgb(169, 140, 102);
+}
+
